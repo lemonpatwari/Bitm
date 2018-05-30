@@ -1,0 +1,176 @@
+/*.box-one{*/
+    /*height:200px;*/
+    /*width:300px;*/
+    /*background-color: green;*/
+    /*float: left;*/
+/*}*/
+/*.box-two{*/
+    /*height:100px;*/
+    /*width: 100px;*/
+    /*float: left;*/
+    /*background-color: red;*/
+    /*border-radius: 50%;*/
+    /*margin-top: 50px;*/
+    /*margin-left: 95px;*/
+/*}*/
+/*.box-three{*/
+    /*float: left;*/
+
+    /*width: 200px;*/
+    /*height: 100px;*/
+    /*background-color: blue;*/
+    /*border-radius: 100px 100px 0px 0px;*/
+
+/*}*/
+/*.box-four{*/
+    /*float: left;*/
+    /*width: 200px;*/
+    /*height: 100px;*/
+    /*background-color: blue;*/
+    /*border-radius: 0px 0px 100px 100px;*/
+
+/*}*/
+/*.box-five{*/
+     /*float: left;*/
+     /*width: 100px;*/
+     /*height: 200px;*/
+     /*background-color: gray;*/
+     /*border-radius: 0px 100px 100px 0px;*/
+
+ /*}*/
+/*.box-six{*/
+      /*float: left;*/
+      /*width: 100px;*/
+      /*height: 200px;*/
+      /*background-color: gray;*/
+      /*border-radius: 100px 0px 0px 100px;*/
+
+  /*}*/
+/*.box-seven{*/
+      /*float: left;*/
+      /*width: 200px;*/
+      /*height: 200px;*/
+      /*background: linear-gradient(to bottom,red,green,blue,gray);*/
+  /*}*/
+/*.box-eight{*/
+      /*float: left;*/
+      /*width: 200px;*/
+      /*height: 200px;*/
+      /*background: green;*/
+        /*margin-top: 150px;*/
+    /*!*transform: rotate(0deg) scale(1);*!*/
+    /*transform: skewY(35deg);*/
+    /*!*transition: 2s;*!*/
+  /*}*/
+/*.box-nine{*/
+    /*height: 200px;*/
+    /*width: 20px;*/
+    /*background: red;*/
+    /*float: left;*/
+    /*margin-left: 150px;*/
+    /*transform: skew(-30deg);*/
+
+/*}*/
+/*.box-ten{*/
+    /*height: 200px;*/
+    /*width: 20px;*/
+    /*background: red;*/
+    /*float: left;*/
+    /*margin-left: 95px;*/
+    /*transform: skew(30deg);*/
+
+/*}*/
+/*.box-eleven{*/
+    /*width: 125px;*/
+    /*height: 20px;*/
+    /*float: left;*/
+    /*background: red;*/
+    /*margin-left: -131px;*/
+    /*margin-top: 105px;*/
+/*}*/
+
+
+
+/*@keyframes demo{*/
+    /*0% {width:300px;}*/
+    /*25% {width:1200px;}*/
+    /*50% {width: 300px;height: 200px;}*/
+    /*75% {height: 600px;}*/
+    /*100% {height: 200px;}*/
+/*}*/
+
+@keyframes demo{
+    0% {margin-left: 0px;}
+    50% {margin-left: 900px;}
+    100% {margin-left: 0px;}
+}
+@keyframes demon{
+    0% {margin-right: 0px;}
+    50% {margin-right: 900px;}
+    100% {margin-right: 0px;}
+}
+.box-twelve{
+    width: 300px;
+    height:200px;
+    margin: 50px;
+    background: pink;
+    animation-name: demo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.box-thirteen{
+    width: 300px;
+    height:200px;
+    margin: 50px;
+    background: pink;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    animation-name: demon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
