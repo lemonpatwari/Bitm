@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="accordion" id="myAccordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#cardOne" data-toggle="collapse">Read More..</a>
+                        <!--<button type="button" class="btn btn-info" data-target="#cardOne"  data-toggle="collapse">Read More..</button>-->
+                    </div>
+                    <div id="cardOne" class="collapse" data-parent="#myAccordion">
+                        <!--<div class="card-body">-->
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="">Link One</a></li>
+                                <li class="list-group-item"><a href="">Link One</a></li>
+                                <li class="list-group-item"><a href="">Link One</a></li>
+                                <li class="list-group-item"><a href="">Link One</a></li>
+                                <li class="list-group-item"><a href="">Link One</a></li>
+                            </ul>
+                        <!--</div>-->
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#cardTwo" data-toggle="collapse">Read More 1..</a>
+                        <!--<button type="button" class="btn btn-info" data-target="#cardTwo" data-toggle="collapse">Read More 1..</button>-->
+                    </div>
+                    <div id="cardTwo" class="collapse" data-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium
+                                atque autem debitis et, ipsum nihil obcaecati optio quaerat reprehenderit sed
+                                similique suscipit velit vero voluptatum. Consectetur debitis quis voluptate.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium
+                                atque autem debitis et, ipsum nihil obcaecati optio quaerat reprehenderit sed
+                                similique suscipit velit vero voluptatum. Consectetur debitis quis voluptate.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto at consequuntur\
+                                dolore doloremque, doloribus et,
+                                expedita harum id iure nisi quaerat quasi qui quia soluta suscipit ullam ut voluptas?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#cardThree" data-toggle="collapse" >Read More 2..</a>
+                        <!--<button type="button" class="btn btn-info" data-target="#cardThree" data-toggle="collapse">Read More 2..</button>-->
+                    </div>
+                    <div id="cardThree" class="collapse" data-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium
+                                atque autem debitis et, ipsum nihil obcaecati optio quaerat reprehenderit sed
+                                similique suscipit velit vero voluptatum. Consectetur debitis quis voluptate.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium
+                                atque autem debitis et, ipsum nihil obcaecati optio quaerat reprehenderit sed
+                                similique suscipit velit vero voluptatum. Consectetur debitis quis voluptate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<hr>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="badge badge-info">some content</span>
+                <span class="badge badge-secondary">some content</span>
+                <span class="badge badge-danger">some content</span>
+                <span class="badge badge-success">some content</span>
+                <span class="badge badge-warning">some content</span>
+                <span class="badge badge-primary">some content</span>
+                <span class="badge badge-light">some content</span>
+            </div>
+
+
+
+            <div>
+                <span class="badge badge-pill badge-info">some content</span>
+                <span class="badge badge-pill badge-secondary">some content</span>
+                <span class="badge badge-pill badge-danger">some content</span>
+                <span class="badge badge-pill badge-success">some content</span>
+                <span class="badge badge-pill badge-warning">some content</span>
+                <span class="badge badge-pill badge-primary">some content</span>
+                <span class="badge badge-pill badge-light">some content</span>
+            </div>
+
+            <div>
+                <button type="button" class="btn btn-primary">Message <span class="badge badge-light">13</span></button>
+            </div>
+
+            <div>
+                <h1>this is heading. <span class="badge badge-secondary">New</span></h1>
+                <h2>this is heading. <span class="badge badge-primary">New</span></h2>
+                <h3>this is heading. <span class="badge badge-success">New</span></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Click me</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!--modal-code-->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1>This Is Modal Heading</h1>
+                            <button type="button" data-dismiss="modal" class="close">X</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at autem consequuntur cupiditate deleniti dolorem eius excepturi fugiat illum laborum maiores, mollitia obcaecati officia provident, quae quisquam repellendus! Dolores, voluptate?</p>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at autem consequuntur cupiditate deleniti dolorem eius excepturi fugiat illum laborum maiores, mollitia obcaecati officia provident, quae quisquam repellendus! Dolores, voluptate?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning" data-dismiss="modal " >X</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

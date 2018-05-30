@@ -1,0 +1,17 @@
+.div-one{
+    width: 320px;
+    height: 300px;
+    border: 1px solid gray;
+}
+.class-one{
+    height: 250px;
+    width: 250px;
+    background-color: gray;
+    border-radius: 100%;
+}
+.class-two{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border-radius: 100%;
+}

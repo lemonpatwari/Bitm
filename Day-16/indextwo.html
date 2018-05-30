@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>First name :</th>
+            <td><input type="text" id="firstName"></td>
+        </tr>
+        <tr>
+            <th>Last name :</th>
+            <td><input type="text" id="lasttName"></td>
+        </tr>
+        <tr>
+            <th>First name :</th>
+            <td><input type="text" id="fullName"></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><input type="button"  id="btn" value="Submit"></td>
+        </tr>
+    </table>
+
+
+
+
+    <script>
+        var btnElement = document.getElementById('btn');
+        btnElement.onclick = function () {
+            var firstName = document.getElementById('firstName') .value;
+            var lasttName = document.getElementById('lasttName') .value;
+            makeFullName(firstName,lasttName);
+        };
+
+        function makeFullName(firstName,lastName) {
+            var fullName = firstName + ' ' + lastName;
+            document.getElementById('fullName').value =fullName;
+
+        }
+
+    </script>
+</body>
+</html>

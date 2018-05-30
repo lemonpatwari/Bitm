@@ -1,0 +1,21 @@
+[class*='col-']{
+    border: 1px solid red;
+}
+.banner{
+
+    height: 180px;
+}
+.menu{
+
+    height: 50px;
+}
+.sidebar{
+
+    height: 600px;
+}
+.big-footer{
+    height: 220px;
+}
+.footer{
+    height: 50px;
+}
